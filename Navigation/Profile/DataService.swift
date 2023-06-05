@@ -10,7 +10,7 @@ import StorageService
 
 class DataService {
     
-    static let posts: [Post] = [
+     let posts: [Post] = [
         
         Post(author: "NotMe", description: "Name Post", image: "apple_logo", likes: 10, views: 10),
         Post(author: "Me1", description: "Name Post", image: "apple_", likes: 15, views: 25),
@@ -35,3 +35,5 @@ class DataService {
         "pech.jpg"
     ]
 }
+
+

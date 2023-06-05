@@ -11,7 +11,7 @@ class ProfileViewController: UIViewController {
     
     let profileHeaderView = ProfileHeaderView()
     
-    let posts = DataService.posts
+    let posts = DataService().posts
     
     let tableView = UITableView(frame: .zero, style: .grouped)
     

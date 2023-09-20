@@ -5,7 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/TrueMax/iOSIntPackage",
       "state" : {
-        "revision" : "c86efef0f00a8b81a14226c060094f150646a504"
+        "revision" : "e1cc0e1b76d7cb8f770d903d85ae9ed91ae026bd",
+        "version" : "3.2.3"
       }
     }
   ],

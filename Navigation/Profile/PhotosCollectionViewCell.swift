@@ -38,8 +38,11 @@ class PhotosCollectionViewCell: UICollectionViewCell {
 //        imageView.image = UIImage(named: imageName)
 //
 //    }
-    func setPhoto(image: UIImage) {
-        imageView.image = image
+//    func setPhoto(image: UIImage) {
+//        imageView.image = image
+//    }
+    func setPhoto(image: CGImage) {        
+        imageView.image = UIImage(cgImage: image)
     }
  
     override init (frame: CGRect) { // Прочитать про метод
